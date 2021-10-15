@@ -1,7 +1,5 @@
 # Secret-Santa
 
-# Automated-Greenhouse
-
 <img src="resources/Screenshot 2021-10-14 165430.png" alt="" height="240"/>
 <br>
 <img src="resources/Screenshot 2021-10-14 165548.png" alt="" height="240"/>
