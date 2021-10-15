@@ -1,0 +1,221 @@
+ @font-face{
+    font-family: "Christmas";
+    src: url('MerryChristmasFlake.ttf'),
+    url('Thonburi-Bold.eot');
+}
+
+@font-face{
+    font-family: "ChristmasEve";
+    src: url('christmaseve.ttf'),
+    url('Thonburi-Bold.eot');
+}
+
+h1 {
+  font-family: ChristmasEve;
+}
+
+.forgot {
+    text-decoration: none;
+    color: #F44336;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+    color: #F44336;
+}
+
+.button1 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.button2 {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.button3 {
+  background-color: #F44336; /* Red */
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.button4 {
+  background-color: #F44336; /* Red */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.ghost {
+  opacity: 0.0;
+  position: absolute;  left: -999999px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.red {
+  color: red;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 13.3333px;
+    line-height: normal;
+    font-family: Arial;
+}
+
+/*
+tbody tr:nth-child(odd) {
+  background: #eee;
+} */
+
+body{
+  padding: 1em;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAQElEQVQIW2P89OvDfwYo+PHjJ4zJwMHBzsAIk0SXAKkCS2KTAEu++vQSbizIKGQAl0SXAJkGlsQmAbcT2Shk+wH0sCzAEOZW1AAAAABJRU5ErkJggg==);
+}
+a{
+  color: #739931;
+}
+/* .page{
+  max-width: 60em;
+  margin: 0 auto;
+} */
+table th,
+table td{
+  text-align: left;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+table th,
+table td{
+  border: 1px solid #B3BFAA;
+  padding: .5em 1em;
+}
+
+table th{ background: #D5E0CC; }
+table td{ background: #fff; }
+
+table{
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* @media (max-width: 30em){
+    table{
+      box-shadow: none;
+    }
+    table thead{
+      display: none;
+    }
+  table th,
+  table td{
+    padding: .5em;
+  }
+
+  table td:nth-child(1):before{
+    content: 'Name';
+  }
+  table td:nth-child(2):before{
+    content: 'Email';
+  }
+  table td:nth-child(3):before{
+    content: 'Wish List';
+  }
+
+  table td:nth-child(1),
+  table td:nth-child(2),
+  table td:nth-child(3){
+    padding-left: 25%;
+  }
+  table td:nth-child(1):before,
+  table td:nth-child(2):before,
+  table td:nth-child(3):before{
+    position: absolute;
+    left: .5em;
+    font-weight: bold;
+  }
+
+    table tr,
+    table td{
+        display: block;
+    }
+    table tr{
+        position: relative;
+        margin-bottom: 1em;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    }
+    table td{
+        border-top: none;
+    }
+    table td.organisationnumber{
+        background: #D5E0CC;
+        border-top: 1px solid #B3BFAA;
+    }
+    table td.actions{
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: none;
+        background: none;
+    }
+} */
