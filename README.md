@@ -1,5 +1,7 @@
 # Secret-Santa
 
+This website was made in response to the covid pandemic making our Christmas virtual. This website stores the names, gifts, and emails in an sql database and automatically emails the appropriate person when a gift list is changed.
+
 <img src="resources/Screenshot 2021-10-14 165430.png" alt="" height="277"/>
 <br>
 <img src="resources/Screenshot 2021-10-14 165548.png" alt="" height="251"/>
